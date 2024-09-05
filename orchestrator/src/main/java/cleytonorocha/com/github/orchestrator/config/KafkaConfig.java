@@ -1,4 +1,4 @@
-package cleytonorocha.com.github.client.config;
+package cleytonorocha.com.github.orchestrator.config;
 
 import java.util.HashMap;
 
@@ -64,5 +64,4 @@ public class KafkaConfig {
         props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         return props;
     }
-    
 }
